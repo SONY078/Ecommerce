@@ -48,11 +48,11 @@ function Nav()
                               <h4>MORE IN Laptop and Desktop</h4>
                               {/* <hr /> */}
                                     <li><Link className="dropdown-item" to="/laptops"> All</Link></li>
-                                    <li><Link className="dropdown-item" to='/lap'>Laptops</Link></li>
-                                    <li><Link className="dropdown-item" to="/gaming">Gaming Laptops</Link></li>
-                                    <li><Link className="dropdown-item" to="/desktops">Desktop PCs</Link></li>
-                                    <li><Link className="dropdown-item" to="/pc">All In One PCs</Link></li>
-                                    <li><Link className="dropdown-item" to="/mini">Mini PCs</Link></li>
+                                    <li><Link className="dropdown-item" to='/laptops'>Laptops</Link></li>
+                                    <li><Link className="dropdown-item" to="/laptops">Gaming Laptops</Link></li>
+                                    <li><Link className="dropdown-item" to="/laptops">Desktop PCs</Link></li>
+                                    <li><Link className="dropdown-item" to="/laptops">All In One PCs</Link></li>
+                                    <li><Link className="dropdown-item" to="/laptops">Mini PCs</Link></li>
                               </ul>
                         </li>
                         <li className="nav-sub-item">
@@ -61,11 +61,11 @@ function Nav()
                               <h4>MORE IN Cameras</h4>
                               {/* <hr /> */}
                                     <li><Link className="dropdown-item" to="/cameras"> All</Link></li>
-                                    <li><Link className="dropdown-item" to="/dslr">DSLR & Mirrorless</Link></li>
-                                    <li><Link className="dropdown-item" to="/sports">Sports & action</Link></li>
-                                    <li><Link className="dropdown-item" to="/icameras">Instant Cameras</Link></li>                                               
-                                    <li><Link className="dropdown-item" to="/drone">Drone</Link></li>
-                                    <li><Link className="dropdown-item" to="/tripods">Camera tripods</Link></li>
+                                    <li><Link className="dropdown-item" to="/cameras">DSLR & Mirrorless</Link></li>
+                                    <li><Link className="dropdown-item" to="/cameras">Sports & action</Link></li>
+                                    <li><Link className="dropdown-item" to="/cameras">Instant Cameras</Link></li>                                               
+                                    <li><Link className="dropdown-item" to="/cameras">Drone</Link></li>
+                                    <li><Link className="dropdown-item" to="/cameras">Camera tripods</Link></li>
                               </ul>
                         </li>
                         <li className="nav-sub-item">
@@ -74,48 +74,48 @@ function Nav()
                               <h4>MORE IN Gaming</h4>
                               {/* <hr /> */}
                                     <li><Link className="dropdown-item" to="/gaming"> All</Link></li>
-                                    <li><Link className="dropdown-item" to="/consoles">Gaming Consoles</Link></li>
-                                    <li><Link className="dropdown-item" to="/mouse">Gaming Mouse</Link></li>
-                                    <li><Link className="dropdown-item" to="/keyboards">Gaming Keyboards</Link></li>                                                
-                                    <li><Link className="dropdown-item" to="/gamepads">Gamepads</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Gaming Mousepads</Link></li>
+                                    <li><Link className="dropdown-item" to="/gaming">Gaming Consoles</Link></li>
+                                    <li><Link className="dropdown-item" to="/gaming">Gaming Mouse</Link></li>
+                                    <li><Link className="dropdown-item" to="/gaming">Gaming Keyboards</Link></li>                                                
+                                    <li><Link className="dropdown-item" to="/gaming">Gamepads</Link></li>
+                                    <li><Link className="dropdown-item" to="/gaming">Gaming Mousepads</Link></li>
                               </ul>
                         </li>
                         <li className="nav-sub-item">
-                            <Link className="dropdown-item" to="#">Smart Wearables &emsp;&nbsp;&emsp;&nbsp;<i className="fa-solid fa-angle-right"></i></Link>
+                            <Link className="dropdown-item" to="/wearables">Smart Wearables &emsp;&nbsp;&emsp;&nbsp;<i className="fa-solid fa-angle-right"></i></Link>
                               <ul className="dropdown-sub-menu">
                               <h4>MORE IN Smart Wearables</h4>
                               {/* <hr /> */}
-                                    <li><Link className="dropdown-item" to="#"> All</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Smart Watches</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Smart Bands</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Smart Glasses</Link></li>                                                
+                                    <li><Link className="dropdown-item" to="/wearables"> All</Link></li>
+                                    <li><Link className="dropdown-item" to="/wearables">Smart Watches</Link></li>
+                                    <li><Link className="dropdown-item" to="/wearables">Smart Bands</Link></li>
+                                    <li><Link className="dropdown-item" to="/wearables">Smart Glasses</Link></li>                                                
                               </ul>
                         </li>
                         <li className="nav-sub-item">
-                            <Link className="dropdown-item" to="#">MobileAccessory &emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fa-solid fa-angle-right"></i></Link>
+                            <Link className="dropdown-item" to="/mobile-accessaries">MobileAccessory &emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fa-solid fa-angle-right"></i></Link>
                               <ul className="dropdown-sub-menu">
                               <h4>MORE IN MobileAccessory</h4>
                               {/* <hr /> */}
-                                    <li><Link className="dropdown-item" to="#"> All</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Plain Cases</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Designer Cases</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Screen Guards</Link></li>                                               
-                                    <li><Link className="dropdown-item" to="#">Camera Lens Protectors</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Mobiles Accessories Combos</Link></li>
+                                    <li><Link className="dropdown-item" to="/mobile-accessaries"> All</Link></li>
+                                    <li><Link className="dropdown-item" to="/mobile-accessaries">Plain Cases</Link></li>
+                                    <li><Link className="dropdown-item" to="/mobile-accessaries">Designer Cases</Link></li>
+                                    <li><Link className="dropdown-item" to="/mobile-accessaries">Screen Guards</Link></li>                                               
+                                    <li><Link className="dropdown-item" to="/mobile-accessaries">Camera Lens Protectors</Link></li>
+                                    <li><Link className="dropdown-item" to="/mobile-accessaries">Mobiles Accessories Combos</Link></li>
                               </ul>
                         </li>
                         <li className="nav-sub-item">
-                            <Link className="dropdown-item" to="#">Storage &emsp;&nbsp;&emsp;&nbsp;&emsp;&nbsp;&emsp;&nbsp;&emsp;&nbsp;<i className="fa-solid fa-angle-right"></i></Link>
+                            <Link className="dropdown-item" to="/storage">Storage &emsp;&nbsp;&emsp;&nbsp;&emsp;&nbsp;&emsp;&nbsp;&emsp;&nbsp;<i className="fa-solid fa-angle-right"></i></Link>
                               <ul className="dropdown-sub-menu">
                               <h4>MORE Storage</h4>
                               {/* <hr /> */}
-                                    <li><Link className="dropdown-item" to="#"> All</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Mobile MemoryCard</Link></li>
-                                    <li><Link className="dropdown-item" to="#">ComputerStorage Pendrive</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Mobile StoragePendrive</Link></li>                                               
-                                    <li><Link className="dropdown-item" to="#">External HardDrive</Link></li>
-                                    <li><Link className="dropdown-item" to="#">InternalHardDrive</Link></li>
+                                    <li><Link className="dropdown-item" to="/storage"> All</Link></li>
+                                    <li><Link className="dropdown-item" to="/storage">Mobile MemoryCard</Link></li>
+                                    <li><Link className="dropdown-item" to="/storage">ComputerStorage Pendrive</Link></li>
+                                    <li><Link className="dropdown-item" to="/storage">Mobile StoragePendrive</Link></li>                                               
+                                    <li><Link className="dropdown-item" to="/storage">External HardDrive</Link></li>
+                                    <li><Link className="dropdown-item" to="/storage">InternalHardDrive</Link></li>
                               </ul>
                         </li>
                     </ul>
@@ -134,80 +134,80 @@ function Nav()
                             </div>
                     <ul className="dropdown-menu">
                         <li className="nav-sub-item">
-                            <Link className="dropdown-item" to="#">Women Ethnic wear <i className="fa-solid fa-angle-right"></i></Link>
+                            <Link className="dropdown-item" to="/women-ethnicwear">Women Ethnic wear <i className="fa-solid fa-angle-right"></i></Link>
                               <ul className="dropdown-sub-menu">
                               <h4>MORE IN WOMEN ETHNIC</h4>
                               {/* <hr /> */}
-                                    <li><Link className="dropdown-item" to="#"> All</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Women Sarees</Link></li>
-                                    <li><Link className="dropdown-item" to="#"> Women Kurtas & Kurtis</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Women Gowns</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Women Lehenga Cholis</Link></li>
+                                    <li><Link className="dropdown-item" to="/women-ethnicwear"> All</Link></li>
+                                    <li><Link className="dropdown-item" to="/women-ethnicwear">Women Sarees</Link></li>
+                                    <li><Link className="dropdown-item" to="/women-ethnicwear"> Women Kurtas & Kurtis</Link></li>
+                                    <li><Link className="dropdown-item" to="/women-ethnicwear">Women Gowns</Link></li>
+                                    <li><Link className="dropdown-item" to="/women-ethnicwear">Women Lehenga Cholis</Link></li>
                               </ul>
                         </li>
                         <li className="nav-sub-item">
-                            <Link className="dropdown-item" to="#">Women Western wear <i className="fa-solid fa-angle-right"></i></Link>
+                            <Link className="dropdown-item" to="/women-westernwear">Women Western wear <i className="fa-solid fa-angle-right"></i></Link>
                               <ul className="dropdown-sub-menu">
                               <h4>MORE IN WOMEN WESTERN</h4>
                               {/* <hr /> */}
-                                    <li><Link className="dropdown-item" to="#"> All</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Women Tops</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Women Dresses</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Women T-shirts & Polo T-shirts</Link></li>                                                
-                                    <li><Link className="dropdown-item" to="#">Women Track Pants</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Women Jumpsuit</Link></li>
+                                    <li><Link className="dropdown-item" to="/women-westernwear"> All</Link></li>
+                                    <li><Link className="dropdown-item" to="/women-westernwear">Women Tops</Link></li>
+                                    <li><Link className="dropdown-item" to="/women-westernwear">Women Dresses</Link></li>
+                                    <li><Link className="dropdown-item" to="/women-westernwear">Women T-shirts & Polo T-shirts</Link></li>                                                
+                                    <li><Link className="dropdown-item" to="/women-westernwear">Women Track Pants</Link></li>
+                                    <li><Link className="dropdown-item" to="/women-westernwear">Women Jumpsuit</Link></li>
                               </ul>
                         </li>
                         <li className="nav-sub-item">
-                            <Link className="dropdown-item" to="#">Women Footwear <i className="fa-solid fa-angle-right"></i></Link>
+                            <Link className="dropdown-item" to="/women-footwear">Women Footwear <i className="fa-solid fa-angle-right"></i></Link>
                               <ul className="dropdown-sub-menu">
                               <h4>MORE IN WOMEN Footwear</h4>
                               {/* <hr /> */}
-                                    <li><Link className="dropdown-item" to="#"> All</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Women Flats,Slipper Flip Flops</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Women Wedges</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Women Heels</Link></li>                                                
-                                    <li><Link className="dropdown-item" to="#">Women Sports Shoes</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Women Boots</Link></li>
+                                    <li><Link className="dropdown-item" to="/women-footwear"> All</Link></li>
+                                    <li><Link className="dropdown-item" to="/women-footwear">Women Flats,Slipper Flip Flops</Link></li>
+                                    <li><Link className="dropdown-item" to="/women-footwear">Women Wedges</Link></li>
+                                    <li><Link className="dropdown-item" to="/women-footwear">Women Heels</Link></li>                                                
+                                    <li><Link className="dropdown-item" to="/women-footwear">Women Sports Shoes</Link></li>
+                                    <li><Link className="dropdown-item" to="/women-footwear">Women Boots</Link></li>
                               </ul>
                         </li>
                         <li className="nav-sub-item">
-                            <Link className="dropdown-item" to="#">men wear <i className="fa-solid fa-angle-right"></i></Link>
+                            <Link className="dropdown-item" to="/men-wear">men wear <i className="fa-solid fa-angle-right"></i></Link>
                               <ul className="dropdown-sub-menu">
                               <h4>MORE IN MEN WEAR</h4>
                               {/* <hr /> */}
-                                    <li><Link className="dropdown-item" to="#"> All</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Men's T-Shirts</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Men's Ethnic Sets</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Men's Suit</Link></li>                                                
-                                    <li><Link className="dropdown-item" to="#">Men's Pants</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Men's Raincoat</Link></li>
+                                    <li><Link className="dropdown-item" to="/men-wear"> All</Link></li>
+                                    <li><Link className="dropdown-item" to="/men-wear">Men's T-Shirts</Link></li>
+                                    <li><Link className="dropdown-item" to="/men-wear">Men's Ethnic Sets</Link></li>
+                                    <li><Link className="dropdown-item" to="/men-wear">Men's Suit</Link></li>                                                
+                                    <li><Link className="dropdown-item" to="/men-wear">Men's Pants</Link></li>
+                                    <li><Link className="dropdown-item" to="/men-wear">Men's Raincoat</Link></li>
                               </ul>
                         </li>
                         <li className="nav-sub-item">
-                            <Link className="dropdown-item" to="#">men Footwear <i className="fa-solid fa-angle-right"></i></Link>
+                            <Link className="dropdown-item" to="/men-footwear">men Footwear <i className="fa-solid fa-angle-right"></i></Link>
                               <ul className="dropdown-sub-menu">
                               <h4>MORE IN MEN Footwear</h4>
                               {/* <hr /> */}
-                                    <li><Link className="dropdown-item" to="#"> All</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Men's Sports Shoes</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Men's Slippers & Flip Flops</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Active Footwear</Link></li>                                                
-                                    <li><Link className="dropdown-item" to="#">Men's Casual Shoes</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Combo Footwear</Link></li>
+                                    <li><Link className="dropdown-item" to="/men-footwear"> All</Link></li>
+                                    <li><Link className="dropdown-item" to="/men-footwear">Men's Sports Shoes</Link></li>
+                                    <li><Link className="dropdown-item" to="/men-footwear">Men's Slippers & Flip Flops</Link></li>
+                                    <li><Link className="dropdown-item" to="/men-footwear">Active Footwear</Link></li>                                                
+                                    <li><Link className="dropdown-item" to="/men-footwear">Men's Casual Shoes</Link></li>
+                                    <li><Link className="dropdown-item" to="/men-footwear">Combo Footwear</Link></li>
                               </ul>
                         </li>
                         <li className="nav-sub-item">
-                            <Link className="dropdown-item" to="#">Kids <i className="fa-solid fa-angle-right"></i></Link>
+                            <Link className="dropdown-item" to="/kids">Kids <i className="fa-solid fa-angle-right"></i></Link>
                               <ul className="dropdown-sub-menu">
                               <h4>MORE IN Kids</h4>
                               {/* <hr /> */}
-                                    <li><Link className="dropdown-item" to="#"> All</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Boys & Girls Tshirts</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Boys & Girls Combosets</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Kids Slipper Flip Flop</Link></li>                                                
-                                    <li><Link className="dropdown-item" to="#">Boys & Girls Ethnic Wear</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Infant Wear</Link></li>
+                                    <li><Link className="dropdown-item" to="/kids"> All</Link></li>
+                                    <li><Link className="dropdown-item" to="/kids">Boys & Girls Tshirts</Link></li>
+                                    <li><Link className="dropdown-item" to="/kids">Boys & Girls Combosets</Link></li>
+                                    <li><Link className="dropdown-item" to="/kids">Kids Slipper Flip Flop</Link></li>                                                
+                                    <li><Link className="dropdown-item" to="/kids">Boys & Girls Ethnic Wear</Link></li>
+                                    <li><Link className="dropdown-item" to="/kids">Infant Wear</Link></li>
                               </ul>
                         </li>
                     </ul>
@@ -247,12 +247,12 @@ function Nav()
                                 </Link>
                             </div>
                             <ul className="dropdown-s-menu">
-                                    <li><Link className="dropdown-item" to="#"> All</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Sports Equipments</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Gym Equipments</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Fitness Equipments</Link></li>                                                
-                                    <li><Link className="dropdown-item" to="#">Shakers & Sippers</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Yoga</Link></li>
+                                    <li><Link className="dropdown-item" to="/sports"> All</Link></li>
+                                    <li><Link className="dropdown-item" to="/sports">Sports Equipments</Link></li>
+                                    <li><Link className="dropdown-item" to="/sports">Gym Equipments</Link></li>
+                                    <li><Link className="dropdown-item" to="/sports">Fitness Equipments</Link></li>                                                
+                                    <li><Link className="dropdown-item" to="/sports">Shakers & Sippers</Link></li>
+                                    <li><Link className="dropdown-item" to="/sports">Yoga</Link></li>
                               </ul>
                             </li>
                <li className="nav-item"><div id="subnav7">
@@ -267,12 +267,12 @@ function Nav()
                                 </Link>
                             </div>
                             <ul className="dropdown-b-menu">
-                                    <li><Link className="dropdown-item" to="#"> All</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Entrance Exams</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Literature & Fiction</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Young Readers</Link></li>                                                
-                                    <li><Link className="dropdown-item" to="#">E-Learning</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Non Fiction</Link></li>
+                                    <li><Link className="dropdown-item" to="/books"> All</Link></li>
+                                    <li><Link className="dropdown-item" to="/books">Entrance Exams</Link></li>
+                                    <li><Link className="dropdown-item" to="/books">Literature & Fiction</Link></li>
+                                    <li><Link className="dropdown-item" to="/books">Young Readers</Link></li>                                                
+                                    <li><Link className="dropdown-item" to="/books">E-Learning</Link></li>
+                                    <li><Link className="dropdown-item" to="/books">Non Fiction</Link></li>
                               </ul>
                            
                         </li>

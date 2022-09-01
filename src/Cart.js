@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useCart } from "react-use-cart";
 
 const Cart = () => {
@@ -13,17 +14,14 @@ const Cart = () => {
     emptyCart
   } = useCart();
   const buy = () => {
-    alert(" ");
+    alert("navigating to checkout page");
   };
   if (isEmpty) return <h1 className="text-center"> Your cart isEmpty </h1>;
   return (
     <section className="container">
       <div className="row jistufy-content-center">
         <div className="col-12">
-          <h5>
-            {" "}
-            Cart ({totalUniqueItems}) total Item :({totalItems})
-          </h5>
+          
           <table className="table table-light m-0">
             <tbody>
               {items.map((item, index) => {
@@ -35,7 +33,7 @@ const Cart = () => {
 
                     <td>{item.title}</td>
 
-                    <td>{item.price}</td>
+                    <td>₹{item.price}</td>
 
                     <td>Quantity({item.quantity})</td>
 
@@ -73,18 +71,23 @@ const Cart = () => {
               })}
             </tbody>
           </table>
-
-          <div className="col-auto ms-auto">
-            <h2> total price: {cartTotal} </h2>
+          <h5 className="totalitems">
+            {" "}
+            Cart ({totalUniqueItems}) total Item :({totalItems})
+          </h5>
+          <div className="col-auto ms-auto ">
+            <h2> total price: ₹{cartTotal} </h2>
           </div>
         </div>
         <div className="col-auto mb-2">
-          <button onClick={() => emptyCart()} className="btn btn-success">
+          <button onClick={() => emptyCart()} className="btn btn-success clrbtn">
             Clear Cart
           </button>
-          <button onClick={buy} className="btn btn-success">
-            Buy Now{" "}
+          <Link to='/checkout'>
+          <button onClick={buy} className="btn btn-success clrbtn">
+            Buy Now{""}
           </button>
+          </Link>
         </div>
       </div>
     </section>

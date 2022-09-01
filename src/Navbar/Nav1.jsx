@@ -2,7 +2,12 @@ import React from 'react'
 import Logo from '../Images/download.png'
 import '../Styling/sty.css'
 import { Link } from 'react-router-dom'
-function Nav1() {
+import { useCart } from "react-use-cart";
+function Nav1() 
+{
+  const {
+    totalItems,
+  } = useCart();
   return (
     <div>
         <div id="navskai">
@@ -14,11 +19,14 @@ function Nav1() {
               <button className='searchicon'><i className="fa-solid fa-magnifying-glass"></i></button>
             </form>
             <div id="sub-nav">
-            <button id='bt1'>Log in</button>
-              <button id='bt1'>Sign Up</button>
+            <Link to='/login'><button id='bt1'>Log in</button></Link>
+              <Link to='/signup'><button id='bt1'>Sign Up</button></Link>
               <select name="En" id="lan">
                 <option value="English">En</option>
               </select>
+              <span className="totalitemscart">
+            {totalItems}
+          </span>
               <Link to='/cart'><span><i className="fa-solid fa-cart-shopping"></i></span></Link>
             </div>
         </div>
