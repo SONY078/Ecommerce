@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useCart } from "react-use-cart";
-
+import Empty from './Images/Empty-Cart.jpg'
 const Cart = () => {
   const {
     isEmpty,
@@ -16,7 +16,10 @@ const Cart = () => {
   const buy = () => {
     alert("navigating to checkout page");
   };
-  if (isEmpty) return <h1 className="text-center"> Your cart isEmpty </h1>;
+  if (isEmpty) return <div>
+    <img src={Empty} alt='empty' className="empty-cart"/>
+    <Link to='/home'><span className="gotohome">Go to home <i class="fa-solid fa-right-long"></i></span></Link>
+ </div>;
   return (
     <section className="container">
       <div className="row jistufy-content-center">

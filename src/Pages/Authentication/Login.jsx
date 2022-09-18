@@ -1,15 +1,13 @@
 import React from 'react';
-import { useAuth0 } from "@auth0/auth0-react";
-import Avatar from '../../Images/img_av.png'
 import { Link } from 'react-router-dom';
+import { useAuth0 } from '@auth0/auth0-react';
 const Login = () => {
    
-        const { loginWithRedirect } = useAuth0();
-        const { logout, isAuthenticated } = useAuth0();
+        const { loginWithRedirect,logout, isAuthenticated } = useAuth0();
 
     return (
         <>
-            {isAuthenticated  ? (
+            {/* {isAuthenticated  ? (
                  <button type="button" className="btn btn-outline-primary ms-auto" data-bs-toggle="modal" data-bs-target="#loginModal" onClick={() => logout({ returnTo: window.location.origin })}>
                  <span className="fa fa-sign-out me-1"></span> Logout
               </button>
@@ -30,9 +28,18 @@ const Login = () => {
                     <label for="uname"><b>Username</b></label>
                     <input type="text" placeholder="Enter Username" name="uname" required/>
                     <label for="psw"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" required/>
-                    <Link to='/cart'><button type="submit" className='loginbtn'>Login</button></Link>
-                    <label>
+                    <input type="password" placeholder="Enter Password" name="psw" required/> */}
+                    {/* <Link to='/cart'> </Link>*/}
+                    {
+                      isAuthenticated ? (
+                        <button onClick={() => logout({ returnTo: window.location.origin })}>Log Out
+                        </button>
+                      ) : (
+                        <button onClick={() => loginWithRedirect()}>Log In</button>
+                        // <button onClick={() => loginWithRedirect()} type="submit" className='loginbtn'>Login</button>
+                      )
+                    }
+                    {/* <label>
                         <input type="checkbox" checked="checked" name="remember"/> 
                         Remember me
                     </label>
@@ -41,8 +48,8 @@ const Login = () => {
                     <button type="button" class="cancelbtn">Cancel</button>
                     <span class="psw">Forgot <Link to="/forget">password?</Link></span>
                 </div>
-            </form>
-            </div>
+            </form> 
+            </div>*/}
             
 
 

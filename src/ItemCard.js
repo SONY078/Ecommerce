@@ -1,9 +1,5 @@
-import React, { useState } from "react";
-import { useCart } from "react-use-cart";
+import React from "react";
 const ItemsCard = (props) => {
-  const { addItem } = useCart();
-  const [active,setActive]=useState(false);
-
   return (
 
     <div className="col-11 col-md-6 col-lg-3 mx-0 mb-4">
@@ -24,9 +20,7 @@ const ItemsCard = (props) => {
              <span class="fa fa-star"></span>
             </h3>
           <button
-            className="btn btn-success"
-            onClick={() => addItem(props.item,setActive(!active))}>
-            { active?'remove from cart':'Add To Cart'}
+            className="btn btn-success">add cart
           </button>
         </div>
       </div>

@@ -4,7 +4,7 @@ import data from "../data";
 import { useCart } from 'react-use-cart';
 function MainPage(props) 
 {
-  const { addItem } = useCart();
+  const { addItem ,removeItem} = useCart();
     const {id} = useParams();
     const [active,setActive]=useState(false);
   return (
@@ -32,7 +32,8 @@ function MainPage(props)
                 </h3>
                 <p>{item.spec}</p>
                 <p>{item.description}</p>
-                <button className="btn success" onClick={() => addItem(item,setActive(!active))}>{ active?'remove from cart':'Add To Cart'}</button>
+                <button className="btn success" onClick={() => active ? removeItem(item.id,setActive(!active)) :
+                  addItem(item,setActive(!active))}>{ active?'remove from cart':'Add To Cart'}</button>
               </div>
               
               </>

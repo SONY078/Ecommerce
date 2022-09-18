@@ -14,14 +14,12 @@ import Toys from './Pages/Toys';
 import Sports from './Pages/Sports';
 import Category, { Gaming, Laptop, Mobiles, Wearables,Storage, Ethnic, Western, Footwear, MenWear, MenFootwear, Kids } from './Pages/Category';
 import Login, { Checkout, Signup } from './Pages/Authentication/Login';
-
 export default function App() {
   return (
     <div>
       <CartProvider>
        <BrowserRouter>
        <Nav1/>
-       {/* <Nav/> */}
        <Routes>
         <Route path="/groceries" element={<Groceries/>}/>
         <Route path='/home' element={<Home/>}/>
