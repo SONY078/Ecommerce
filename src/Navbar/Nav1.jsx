@@ -1,5 +1,7 @@
 import React from 'react'
 import Logo from '../Images/download.png'
+import CartIcon from './purple-shopping-cart-10938.png'
+import SearchIco from './searchIco.png'
 import '../Styling/sty.css'
 import { Link } from 'react-router-dom'
 import { useAuth0 } from '@auth0/auth0-react/dist/auth0-react.cjs'
@@ -49,7 +51,7 @@ function Nav1()
             </div>
             <form>
               <input type="text"  name="" id='search' />
-              <button className='searchicon'><i className="fa-solid fa-magnifying-glass"></i></button>
+              <button className='searchicon'><img src={SearchIco} alt="searchicon"  className='searchIco'/></button>
             </form>
             <div id="sub-nav">
             {/* <Link to='/login'><button id='bt1'>Log in</button></Link> */}
@@ -67,7 +69,7 @@ function Nav1()
               </select>
               <span className="totalitemscart">{totalItems}</span>
               <Link to='/cart'>
-                <span><i className="fa-solid fa-cart-shopping"></i></span>
+                <img src={CartIcon} alt="cart" className='cartIco'/>
               </Link>
             </div>
         </div>

@@ -203,6 +203,13 @@ h4
     background-color: rgb(232, 230, 230);
     border-radius: 20px;
 }
+.searchIco
+{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(114, 98, 98);
+  filter: brightness(100%);
+}
 #sub-nav
 {
     display: flex;
@@ -794,3 +801,10 @@ span.psw {
     }
   
   
+.cartIco
+{
+  color: purple;
+  width: 20px;
+  height: 20px;
+  filter: brightness(200%) contrast(100%);
+}
